@@ -1,0 +1,38 @@
+Chứng minh định lý Brocard
+Phát biểu định lý: Cho tứ giác toàn phần BADCXY nội tiếp đường tròn (O); Z là giao điểm của AC, DB. Chứng minh rằng: O là trực tâm của tam giác XYZ.
+
+Tính chất 1: Chân đường cao từ Z xuống XY là điểm Miquel. (Gọi điểm Miquel -> vuông góc)
+
+Gọi T là điểm Miquel của tgtp BADCXY. Bằng cộng góc ta dễ chứng minh T nằm trên XY.
+cm tg ATCO nt: Ta có ATC=180-(YTA+CTX)=180-(ADC+ADC)=180-2ADC=180-AOC => ATC+AOC=180
+cm tg TBOD nt: Ta có ATB=180-(YT'D+BT'X)=180-2BCD=180-BOD => DTB+DOB=180
+=> OT là trục đẳng phương của (DOB), (ACO)
+Có:
+Pz/(dob)=ZB.ZD
+Pz/(aco)=ZC.ZA
+tg ABCD nội tiếp nên ZB.ZD=ZC.ZA
+=> Z thuộc trục đẳng phương của (DOB), (ACO)
+Do đó O,Z,T thẳng hàng
+Ta có TO là pg ATC => ATO=OTC Mặt khác YTA=XTC => OTX=OTY => OT vuông góc XY <=> ZT vg XY
+
+Tính chất 2: Hình chiếu của Y trên XZ thuộc các đường tròn ngoại tiếp các tam giác ABZ, CDZ, BCO, ADO.
+
+Đường tròn ngoại tiếp các tam giác AZB, DZC cắt nhau tại W.
+Tứ giác WZCD nt: CWZ=ZDC
+Tứ giác AWZB nt: BWZ=ZAB
+=> CWB = 2BDC (ZAB=ZDC) => CWB=COB => Tứ giác BWOC nội tiếp
+Tương tự suy ra tứ giác AWOD nội tiếp.
+
+Dễ thấy Py/(aod) = Py/(boc)
+Ta có WO là trục đẳng phương của (AOD) và (BOC)
+=> Y,W,O thẳng hàng.
+Tương tự cũng có Y,Z,W thẳng hàng.
+
+Ta có ZWO=CWZ+CWO=BDC+OBC=(180-BOC)/2+BOC/2=90
+Như vậy YW vuông góc OY.
+
+Xét tg XYZ có ZT và YW là đường cao, chúng cắt nhau tại O => O là trực tâm của tam giác XYZ
+
+------------------------
+Tính chất 3: Bán kính tròn ngoại tiếp các tam giác OXY,OYZ,OZX bằng nhau.
+
